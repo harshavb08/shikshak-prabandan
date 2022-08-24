@@ -1,0 +1,28 @@
+.left-side-bar{
+    background: #2A3A8D;
+}
+
+/* .micon{
+    color: black !important;
+} */
+
+.mtext{
+    color: white;
+    
+    
+}
+
+/* .dropdown-divider{
+    background: #2A3A8D;
+} */
+
+.left-side-bar .brand-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.left-side-bar .brand-logo h3{
+    font-size: 25px;
+    padding: 1rem 1rem;
+    color: white;
+}

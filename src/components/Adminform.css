@@ -1,0 +1,21 @@
+.bg_image {
+    background-image: url('./whitebg2.jpg');
+    background-size: cover;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4rem;
+    width: auto;
+    margin: 30px 0 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.content .contents .form-control,
+.content .bg .form-control {
+    font-size: 15px;
+}

@@ -6,19 +6,12 @@ import { Chatbot } from '../components/User/Chatbot/Chatbot'
 
 
 export default function Home() {
-    return ( <
-        div >
-        <
-        Helmet >
-        <
-        script src = "js/main.js" > < /script> <
-        /Helmet> <
-        Navbar / >
-        <
-        Auth / >
-        <
-        Chatbot / >
-        <
-        /div>
-    )
+    return (<div >
+        <Helmet >
+            <script src="js/main.js" > </script> </Helmet>
+        <Navbar />
+        <Auth />
+        <Chatbot />
+        </div>
+        )
 }

@@ -1,29 +1,25 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-mongoose.connect('mongodb://localhost:27017/test', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+let connection=null;
 
-mongoose.connection.on('connected', () => {
-    console.log('Mongoose connected to db');
-});
+const connectToMongoDb = () => {
+    mongoose
+        .connect(
+            `mongodb+srv://sih2022:sih2022@cluster0.wmwjpa5.mongodb.net/test`,
+            {
+                useNewUrlParser: true,
+                useUnifiedTopology: true,
+            }
+        )
+        .then(() => {
+            console.log("CONNECTED TO MONGODB");
+            clearTimeout(connection);
+        })
+        .catch((err) => {
+            console.log(err);
+            console.log("reconnecting mongodb ...");
+            connection = setTimeout(connectToMongoDb, 5000);
+        });
+}
 
-mongoose.connection.on('error', (err) => {
-    console.log('Mongoose connection error: ', err);
-});
-
-mongoose.connection.on('disconnected', () => {
-    console.log('Mongoose disconnected');
-});
-
-process.on('SIGINT', () => {
-    mongoose.connection.close(() => {
-        console.log('Mongoose disconnected through app termination');
-        process.exit(0);
-    });
-});
-
-const db = mongoose.connection;
-
-module.exports = db;
+connectToMongoDb();

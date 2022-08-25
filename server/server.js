@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 
 const cors = require("cors");
@@ -21,6 +23,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(require("./routes/ownerRoutes"));
 
+app.use(require("./routes/teacherRountes"));
+app.use(require("./routes/adminRoutes"));
+
+app.get("/", (req, res) => {
+    res.send("Hello World");
+});
+
+app.enable("trust proxy");
+
+app.use(morgan("method :url :response-time ms"));
 
 app.listen(8000,(err)=>{
     if(err){

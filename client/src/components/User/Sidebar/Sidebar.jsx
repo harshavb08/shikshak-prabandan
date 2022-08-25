@@ -81,6 +81,12 @@ function Sidebar() {
                 </a>
               </li>
               <li className="dropdown">
+                <a href="login-activity" className="dropdown-toggle no-arrow">
+                  <span className="micon bi bi-geo-alt" />
+                  <span className="mtext">Login Activity</span>
+                </a>
+              </li>
+              <li className="dropdown">
                 <a href="/usersupport" className="dropdown-toggle no-arrow">
                   <span className="micon bi bi-headset" />
                   <span className="mtext">Support</span>

@@ -207,6 +207,28 @@ function Adminaddteacher() {
                         1. SSC or Equivalent Examination
                       </h4>
                       <div className="row">
+                        <div className="col-md-5 ">
+                          <div className="form-group">
+                            <label>Course Title: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter course title"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-7 ">
+                          <div className="form-group">
+                            <label>Enter Course-Subject: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter Course-Subject"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
                         <div className="col-md-6 ">
                           <div className="form-group">
                             <label>Name of the Board : </label>
@@ -318,6 +340,28 @@ function Adminaddteacher() {
                       <h4 className="mb-20 text-blue">
                         2. Intermediate or Equivalent Examination
                       </h4>
+                      <div className="row">
+                        <div className="col-md-5 ">
+                          <div className="form-group">
+                            <label>Course Title: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter course title"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-7 ">
+                          <div className="form-group">
+                            <label>Enter Course-Subject: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter Course-Subject"
+                            />
+                          </div>
+                        </div>
+                      </div>
                       <div className="row">
                         <div className="col-md-6 ">
                           <div className="form-group">
@@ -431,6 +475,28 @@ function Adminaddteacher() {
                         3. Degree or Equivalent Examination
                       </h4>
                       <div className="row">
+                        <div className="col-md-5 ">
+                          <div className="form-group">
+                            <label>Course Title: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter course title"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-7 ">
+                          <div className="form-group">
+                            <label>Enter Course-Subject: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter Course-Subject"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
                         <div className="col-md-6 ">
                           <div className="form-group">
                             <label>Name of the Degree : </label>
@@ -542,6 +608,28 @@ function Adminaddteacher() {
                       <h4 className="mb-20 text-blue">
                         4. PostGraduate Degree or Equivalent Examination
                       </h4>
+                      <div className="row">
+                        <div className="col-md-5 ">
+                          <div className="form-group">
+                            <label>Course Title: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter course title"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-7 ">
+                          <div className="form-group">
+                            <label>Enter Course-Subject: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter Course-Subject"
+                            />
+                          </div>
+                        </div>
+                      </div>
                       <div className="row">
                         <div className="col-md-6 ">
                           <div className="form-group">
@@ -655,6 +743,28 @@ function Adminaddteacher() {
                         5. Training Certificates
                       </h4>
                       <div className="row">
+                        <div className="col-md-5 ">
+                          <div className="form-group">
+                            <label>Course Title: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter course title"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-7 ">
+                          <div className="form-group">
+                            <label>Enter Course-Subject: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter Course-Subject"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
                         <div className="col-md-6 ">
                           <div className="form-group">
                             <label>Professional Graduation : </label>
@@ -767,6 +877,28 @@ function Adminaddteacher() {
                         6. M.Ed/ M.P.ED or Equivalent Examination
                       </h4>
                       <div className="row">
+                        <div className="col-md-5 ">
+                          <div className="form-group">
+                            <label>Course Title: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter course title"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-7 ">
+                          <div className="form-group">
+                            <label>Enter Course-Subject: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter Course-Subject"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
                         <div className="col-md-6 ">
                           <div className="form-group">
                             <label>Professional Qualification : </label>
@@ -846,6 +978,28 @@ function Adminaddteacher() {
                       <h4 className="mb-20 text-blue">
                         7. M.Phil/ P.HD or Equivalent Examination
                       </h4>
+                      <div className="row">
+                        <div className="col-md-5 ">
+                          <div className="form-group">
+                            <label>Course Title: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter course title"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-7 ">
+                          <div className="form-group">
+                            <label>Enter Course-Subject: </label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter Course-Subject"
+                            />
+                          </div>
+                        </div>
+                      </div>
                       <div className="row">
                         <div className="col-md-6 ">
                           <div className="form-group">

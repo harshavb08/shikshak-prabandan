@@ -47,9 +47,6 @@ function ASidebar() {
                 </a>
                 <ul className="submenu">
                   <li>
-                    <a href="/add-school">Add Schools</a>
-                  </li>
-                  <li>
                     <a href="/admin-view-school">View Schools</a>
                   </li>
                   {/* <li>

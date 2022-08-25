@@ -1,0 +1,38 @@
+.navbar-three{
+    display: flex;
+    background: #29398d;
+    color: white;
+    font-family: "Jost",sans-serif;
+    font-weight: 500;
+    display: flex;
+    padding: 10px 10px;
+    height: 50px;
+}
+
+
+
+.navbar-three .left{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-right: 3px solid white;
+}
+
+.navbar-three .left .update {
+    display: flex;
+}
+.navbar-three .left .update span{
+    margin: 0 1rem;
+}
+
+.navbar-three .right{
+    display: flex;
+    align-content: center;
+}
+.navbar-three .right p{
+    padding-top: 3px;
+    font-family: "Jost",sans-serif;
+    color: white;
+    font-weight: 500;
+    
+}

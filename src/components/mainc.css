@@ -1,0 +1,17 @@
+.av img{
+    width: 200px;
+    height: 170px;
+    /* border-radius: 3rem; */
+}
+
+
+
+.card-container{
+    /* Created with https://www.css-gradient.com */
+/* Created with https://www.css-gradient.com */
+background: #293A8D;
+background: -webkit-radial-gradient(center, #293A8D, #371856);
+background: -moz-radial-gradient(center, #293A8D, #371856);
+background: radial-gradient(ellipse at center, #293A8D, #371856);
+border-radius: 0%;
+}

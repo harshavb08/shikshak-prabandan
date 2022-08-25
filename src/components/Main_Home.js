@@ -1,9 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Navbar from './components/Navbar'
-import { Chatbot } from './components/User/Chatbot/Chatbot'
-import Slider from './Slider'
-import Notifiy from './Notifiy'
+import Navbar from './Navbar'
+import { Chatbot } from './User/Chatbot/Chatbot'
+import Slider from '../Slider'
+import MainC from './MainC'
+import Textslide from './Textslide';
 
 export default function Main_Home() {
   return (
@@ -12,8 +13,9 @@ export default function Main_Home() {
             <script src="js/main.js"></script>
         </Helmet>
       <Navbar/>
+      <Textslide/>
       <Slider/>
-      <Notifiy/>
+      <MainC/>
       <Chatbot/>
     </div>
   )

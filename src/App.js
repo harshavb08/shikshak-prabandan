@@ -48,7 +48,8 @@ import AGenerateSB from "./pages/Admin/AGenerateSB";
 import Generate from "./pages/User/Generate";
 import Aretirement from "./pages/Admin/Aretirement";
 import Aretirementhistory from "./pages/Admin/Aretirementhistory";
-import Main_Home from "./Main_Home";
+import Main_Home from "./components/Main_Home";
+import LoginActivityPg from "./pages/User/LoginActivityPg";
 
 
 
@@ -105,6 +106,7 @@ const App = () => {
                 <Route path = "/downloads-usermanual">{<Usermanual/>}</Route>
                 <Route path = "/forgot-password">{<ForgotPass/>}</Route>
                 <Route path = "/my-files">{<Myfiles/>}</Route>
+                <Route path = "/login-activity">{<LoginActivityPg/>}</Route>
                 
             </Switch>
         </div>

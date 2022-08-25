@@ -1,5 +1,8 @@
 import React from 'react'
 import './slider.css'
+import slide1 from './slide1.jpeg';
+import slide2 from './slide2.jpeg';
+import slide3 from './slide3.jpeg';
 
 function Slider() {
   return (
@@ -19,24 +22,25 @@ function Slider() {
     <li data-target="#carouselExampleIndicators" data-slide-to={2} />
   </ol>
   <div className="carousel-inner">
+    
     <div className="carousel-item active">
       <img
         className="d-block w-100"
-        src="https://img.freepik.com/free-vector/flat-tropical-leaves-background_23-2148953892.jpg?w=1060&t=st=1661082549~exp=1661083149~hmac=630f9aa35b6c1934cb5e0d67b1cfe5bb059c8eecdf77a64c832858aa09ea09bf"
-        alt="First slide"
+        src={slide1}
+        alt="Third slide"
       />
     </div>
     <div className="carousel-item">
       <img
         className="d-block w-100"
-        src="https://img.freepik.com/free-psd/realistic-tropical-plants-floral-concept_24972-1951.jpg?w=1380&t=st=1661082513~exp=1661083113~hmac=01669f8073d101ab130a403c8dcfb4827c6cd5fe45ab8adc6dc912fbda49ad3e"
-        alt="Second slide"
+        src={slide2}
+        alt="Third slide"
       />
     </div>
     <div className="carousel-item">
       <img
         className="d-block w-100"
-        src="https://img.freepik.com/free-vector/gradient-summer-background-videocalls_23-2148966480.jpg?w=1060&t=st=1661082531~exp=1661083131~hmac=d99a0d525643c9f7a0cc6414a39afe4d67132ce63e427d75a93d95ce2a5b352c"
+        src={slide3}
         alt="Third slide"
       />
     </div>

@@ -1,6 +1,17 @@
-import React from 'react'
+import React,{ useState } from 'react'
+
+
 
 function Adminschoolform() {
+  const [id,setId] = useState(0);
+  function listQ(){
+    console.log("hi");
+    var e = document.getElementById("list");
+    
+    
+      setId(e.value);
+    
+  }
   return (
     <>
     <div className="main-container">
@@ -64,33 +75,97 @@ function Adminschoolform() {
               <div className="row">
               <div className="col-md-12">
                         <div className="form-group">
-                          <label>District :</label>
-                          <select className="custom-select form-control">
-                            <option value="">Select District</option>
-                            <option value="Nagpur">Nagpur</option>
-                            <option value="Thane">Thane</option>
-                            <option value="Nashik">Nashik</option>
-                            <option value="Kolhapur">
-                                Kolhapur
-                            </option>
-                          </select>
+                        <label>State :</label>
+                        <select className="custom-select form-control" id ="list" onChange={listQ} >
+                          <option value="">Select State</option>
+                          <option value="1" >Maharashtra</option>
+                          <option value="2">Telangana</option>
+                          <option value="3">Andhra Pradesh</option>
+                          <option value="4">Karnataka</option>
+                          <option value="5">Tamil Nadu</option>
+                        </select>
                         </div>
                       </div>
-                      <div className="col-md-12">
-                        <div className="form-group">
-                          <label>State :</label>
-                          <select className="custom-select form-control">
-                            <option value="">Select State</option>
-                            <option value="Sick Leave">Maharashtra</option>
-                            <option value="Casual Leave">Telangana</option>
-                            <option value="Earned Leave">Andhra Pradesh</option>
-                            <option value="Maternity Leave">
-                              Karnataka
-                            </option>
-                          </select>
-                        </div>
-                      </div>
+                      
+                      
                </div> 
+               <div className="row">
+               {
+                id == "1" ? (
+                  <div className="col-md-12">
+                  <div className="form-group">
+                    <label>District :</label>
+                    <select className="custom-select form-control">
+                      <option value="">Select District</option>
+                      <option value="1">Mumbai</option>
+                      <option value="2">Nagpur</option>
+                      <option value="3">Thane</option>
+                      <option value="4">Nashik</option>
+                      <option value="5">Kolhapur</option>
+                    </select>
+                  </div>
+                </div>
+                ) : id == "2" ? (
+                  <div className="col-md-12">
+                  <div className="form-group">
+                    <label>District :</label>
+                    <select className="custom-select form-control">
+                      <option value="">Select District</option>
+                      <option value="1">Hyderabad</option>
+                      <option value="2">Medchal</option>
+                      <option value="3">Medak</option>
+                      <option value="4">Warangal</option>
+                      <option value="5">Basara</option>
+                    </select>
+                  </div>
+                </div>
+                ) : id == "3" ? (
+                  <div className="col-md-12">
+                  <div className="form-group">
+                    <label>District :</label>
+                    <select className="custom-select form-control">
+                      <option value="">Select District</option>
+                      <option value="1">Vijayawada</option>
+                      <option value="2">Kadapa</option>
+                      <option value="3">Vishakapatanam</option>
+                      <option value="4">East Godavari</option>
+                      <option value="5">West Godavari</option>
+                    </select>
+                  </div>
+                </div>
+                ):
+                id == "4" ? (
+                  <div className="col-md-12">
+                  <div className="form-group">
+                    <label>District :</label>
+                    <select className="custom-select form-control">
+                      <option value="">Select District</option>
+                      <option value="1">Hospet</option>
+                      <option value="2">Hagaribommanahalli</option>
+                      <option value="3">Kampli</option>
+                      <option value="4">Belgum</option>
+                      <option value="5">Bengaluru</option>
+                       
+                    </select>
+                  </div>
+                </div>
+                ): 
+                id == "5" ?
+                <div className="col-md-12">
+                  <div className="form-group">
+                    <label>District :</label>
+                    <select className="custom-select form-control">
+                      <option value="">Select District</option>
+                      <option value="1">Ariyalur</option>
+                      <option value="2">Chennai</option>
+                      <option value="3">Coimbatore</option>
+                      <option value="4">Cuddalore</option>
+                      <option value="5">Chengalpet</option>
+                    </select>
+                  </div>
+                </div> : ""
+              }
+               </div>
                 <div className="row">
                 <div className="col-md-12 ">
                 <div class="form-group">

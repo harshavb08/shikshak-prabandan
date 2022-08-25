@@ -8,6 +8,8 @@ const bodyParser = require("body-parser");
 
 const fileupload = require("express-fileupload");
 
+const morgan = require("morgan");
+
 const app = express();
 
 app.use(cors());

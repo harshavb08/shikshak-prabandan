@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Demo from "./pages/Demo";
 import Support from "./pages/Support";
 import Admin from "./pages/Admin";
-
 import './App.css';
 import Footer from "./components/Footer";
 import Dashboard from "./pages/User/Dashboard";

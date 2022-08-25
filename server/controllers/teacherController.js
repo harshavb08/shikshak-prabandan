@@ -253,10 +253,50 @@ const verifyTeacher = async (req, res, next) => {
     }
 };
 
+const editDetails = async (req, res, next) => {
+    const {
+        teacherSurname,
+        martialStatus,
+        email,
+        phoneNumber,
+        address,
+        token,
+    } = req.body;
+    try {
+        const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
+        const teacher = await Teacher.findOne({ email: decoded._id });
+        // console.log(teacher);
+        // console.log(teacherSurname, martialStatus, email, phoneNumber, address);
+        if (!teacher) {
+            return res.status(200).json({
+                message: "Teacher not found",
+                success: false,
+            });
+        }
+        teacher.teacherSurname = teacherSurname;
+        teacher.martialStatus = martialStatus;
+        teacher.email = email;
+        teacher.phoneNumber = phoneNumber;
+        teacher.address = address;
+        await teacher.save();
+        return res.status(200).json({
+            message: "Teacher details updated",
+            success: true,
+        });
+    } catch (error) {
+        console.log(error);
+        res.json({
+            message: "Error Updating Teacher",
+            success: false,
+        });
+    }
+};
+
 module.exports = {
     loginController,
     verifyOTP,
     addTeacher,
     resendOtp,
     verifyTeacher,
+    editDetails,
 };

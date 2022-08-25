@@ -13,8 +13,8 @@ export default function Main_Home() {
         </Helmet>
       <Navbar/>
       <Slider/>
-      <Notifiy/>
-      <Chatbot/>
+      {/* <Notifiy/> */}
+      {/* <Chatbot/> */}
     </div>
   )
 }

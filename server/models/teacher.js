@@ -30,6 +30,7 @@ const teacherSchema = new mongoose.Schema({
         designation: { type: String, required: true },
         subject: { type: String, required: true },
     },
+    martialStatus: { type: String, required: true },
     educationDetails: [
         {
             nameOfBoard: { type: String, required: true },

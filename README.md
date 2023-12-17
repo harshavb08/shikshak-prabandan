@@ -13,6 +13,19 @@ Every year through the government exams plenty of teachers are hired and posted 
 
 ## Screenshots
 
+**Home Page**
+
+![](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/85a41d1b-2893-4121-9e95-d6e517b5ef77)
+
+**Admin Login Page**
+
+![Admin Login](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/d0d5eed5-9295-41d3-88e3-6554c5ed57c5)
+
+**Teacher Login Page**
+
+![Teacher Login](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/64f127e6-dc6c-4079-abbb-17a1915d8534)
+
+
 **Admin Dashboard**
 
 ![Admin Dashboard](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/a25b49aa-4cef-4a2b-8a13-924b550faba7)

@@ -1,70 +1,71 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Shikshak Prabandan
 
-## Available Scripts
+Shikshak Prabandan is a Web based Teacher Management System which eases the maintenance of teacher's data and keeps track from their recruitement to their entire service.
 
-In the project directory, you can run:
+**Problem Description :**
 
-### `yarn start`
+Every year through the government exams plenty of teachers are hired and posted in various government schools. The tracking of teachers from recruitment to their entire service duration is done manually which makes it difficult to manage and keep track. Addressing this problem will give government the ease of managing teachers through one single portal which will help in maintaining clear stats of the teachers currently posted.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Admin Dashboard**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Admin Dashboard](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/a25b49aa-4cef-4a2b-8a13-924b550faba7)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Admin - View Schools**
 
-### `yarn eject`
+![Admin - View Schools](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/cbda73ab-c963-4b05-b8c0-b64dec4a6196)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Admin - View Teacher**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![View Teacher](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/8ae34a79-5f0f-4f88-958a-f0e3fe5f9c7d)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Admin- Transfer Teacher**
 
-## Learn More
+![Admin - Transfer Teacher](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/36d46076-48eb-41dc-b2e0-b10ee5c6704c)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Admin - Retire Teacher**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Retire Teacher](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/8d6fd296-b653-48c3-aecb-92794185a7bf)
 
-### Code Splitting
+**Teacher Profile**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Teacher Profile](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/b5d87c3e-6928-4748-a7af-33dd251539a8)
 
-### Analyzing the Bundle Size
+**Teacher Timeline of Service**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Timeline](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/b2fc744c-4174-4b25-8109-3a6299160e39)
 
-### Making a Progressive Web App
+**Teacher Certification**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Teaacher Certifications](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/7b55a7d8-7162-40a0-9e45-634d5f1838bb)
 
-### Advanced Configuration
+**Private File Space**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Private file Space](https://github.com/Rahul-0804/shikshak-prabandan/assets/72433877/0f6654af-47f2-461d-b616-e2dd0cd215f4)
 
-### Deployment
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Client:** React, HTML, CSS, JavaScript
 
-### `yarn build` fails to minify
+**Server:** Node.js, Express.js, Mongoose
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Database:** MongoDB
+
+
+## Features
+
+- Admin and Teacher Login.
+- Two Factor Authentication for Logins.
+- Complete Timeline of Service by Teachers
+- Teachers can add their Certifications and other Important documents.
+- Techers can generate their Service Book.
+- Admins can Retire, Punish the teachers.
+- Chatbot for easy navigation through portal 
+
